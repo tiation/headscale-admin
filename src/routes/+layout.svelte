@@ -87,8 +87,8 @@
 							</svg>
 						</span>
 					</button>
-					<strong class="text-xl uppercase">Headscale-Admin</strong>
-					<span class="text-sm lowercase">{version}</span>
+					<strong class="text-xl uppercase">Tiation Headscale Admin</strong>
+					<span class="text-sm lowercase">v{version}</span>
 				</div>
 			</svelte:fragment>
 
@@ -96,7 +96,7 @@
 				<LightSwitch />
 				<a
 					class="btn btn-sm variant-ghost-surface"
-					href="https://github.com/GoodiesHQ/headscale-admin"
+					href="https://github.com/tiation/headscale-admin"
 					target="_blank"
 					rel="noreferrer"
 				>

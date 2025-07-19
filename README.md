@@ -1,31 +1,36 @@
-# headscale-admin
+# Tiation Headscale Admin
 
 <div align="center">
 
-![headscale-admin Banner](https://img.shields.io/badge/🔮_TIATION_ECOSYSTEM-headscale-admin-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=00FFFF)
+![Tiation Headscale Admin Banner](https://img.shields.io/badge/🔮_TIATION_ECOSYSTEM-Headscale_Admin-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=00FFFF)
 
-**Enterprise-grade solution: headscale-admin**
+**Enterprise-grade VPN Network Management Platform**
 
-*Professional • Scalable • Mission-Driven*
+*Professional • Scalable • Secure • Mobile-Optimized*
 
 [![🌐_Live_Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Project-00FFFF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/headscale-admin)
 [![📚_Documentation](https://img.shields.io/badge/📚_Documentation-Complete-007FFF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/headscale-admin)
 [![🏗️_Architecture](https://img.shields.io/badge/🏗️_Architecture-Diagram-FF00FF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/headscale-admin/architecture)
-[![⚡_Status](https://img.shields.io/badge/⚡_Status-Active Development-FF00FF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/headscale-admin)
+[![⚡_Status](https://img.shields.io/badge/⚡_Status-Production_Ready-FF00FF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/headscale-admin)
 [![📄_License](https://img.shields.io/badge/📄_License-MIT-00FFFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/headscale-admin/blob/main/LICENSE)
+[![📱_Mobile_Optimized](https://img.shields.io/badge/📱_Mobile-Optimized-00FFFF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/headscale-admin)
 
 </div>
 
 ## 🚀 Overview
 
-Enterprise-grade solution: headscale-admin
+Tiation Headscale Admin is an enterprise-grade web-based management platform for Headscale, the open-source implementation of the Tailscale control server. Built with SvelteKit and featuring a stunning dark neon theme with cyan/magenta gradients, this platform provides comprehensive VPN network management capabilities with enterprise-level security and scalability.
 
 ### ✨ Key Features
 
-- 🎯 **Feature 1** - Description 1
-- 🔧 **Feature 2** - Description 2
-- 🌟 **Feature 3** - Description 3
-- 🛡️ **Feature 4** - Description 4
+- 🎯 **Comprehensive Network Management** - Full control over VPN nodes, users, and routes
+- 🔧 **Real-time Monitoring** - Live status updates and network health monitoring
+- 🌟 **Enterprise Security** - Advanced ACL management and security policies
+- 🛡️ **Mobile-First Design** - Responsive interface optimized for all devices
+- ⚡ **Performance Optimized** - Fast, efficient operations with modern web technologies
+- 🎨 **Dark Neon Theme** - Professional UI with cyan/magenta gradient accents
+- 🔐 **Pre-Auth Key Management** - Secure device onboarding workflows
+- 📊 **Analytics Dashboard** - Comprehensive network insights and reporting
 
 ---
 
@@ -37,22 +42,36 @@ Enterprise-grade solution: headscale-admin
 
 ```mermaid
 graph TB
-    A[Component 1] --> B[Component 2]
-    B --> C[Component 3]
-    C --> D[Component 4]
+    A[SvelteKit Frontend] --> B[Headscale API]
+    B --> C[Network Control Server]
+    C --> D[VPN Node Network]
+    E[Web Admin Panel] --> A
+    F[Mobile Interface] --> A
+    G[Authentication] --> B
+    H[ACL Engine] --> C
+    I[Monitoring Dashboard] --> A
     
-    style A fill:#00ffff,stroke:#ff00ff,stroke-width:2px
-    style B fill:#ff00ff,stroke:#00ffff,stroke-width:2px
-    style C fill:#00ffff,stroke:#ff00ff,stroke-width:2px
-    style D fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+    style A fill:#00ffff,stroke:#ff00ff,stroke-width:2px,color:#000
+    style B fill:#ff00ff,stroke:#00ffff,stroke-width:2px,color:#fff
+    style C fill:#00ffff,stroke:#ff00ff,stroke-width:2px,color:#000
+    style D fill:#ff00ff,stroke:#00ffff,stroke-width:2px,color:#fff
+    style E fill:#00ffff,stroke:#ff00ff,stroke-width:2px,color:#000
+    style F fill:#ff00ff,stroke:#00ffff,stroke-width:2px,color:#fff
+    style G fill:#00ffff,stroke:#ff00ff,stroke-width:2px,color:#000
+    style H fill:#ff00ff,stroke:#00ffff,stroke-width:2px,color:#fff
+    style I fill:#00ffff,stroke:#ff00ff,stroke-width:2px,color:#000
 ```
 
 ### Technology Stack
 
-- **Frontend**: Modern Frontend
-- **Backend**: Scalable Backend
-- **Database**: Database
-- **Infrastructure**: Infrastructure
+- **Frontend**: SvelteKit with TypeScript, TailwindCSS & Skeleton UI
+- **Backend**: Headscale API integration with REST endpoints
+- **Styling**: Dark neon theme with cyan/magenta gradients
+- **Build Tools**: Vite, PostCSS, ESLint, Prettier
+- **Testing**: Vitest for unit and integration testing
+- **Mobile**: Responsive design optimized for all screen sizes
+- **Icons**: Iconify with Material Design Icons
+- **Deployment**: Static site generation with GitHub Pages
 
 ---
 
@@ -74,7 +93,29 @@ graph TB
 
 ## ✨ Features
 
-{{FEATURES_LIST}}
+### 🏢 Enterprise Network Management
+- **User Management** - Create, modify, and delete VPN users with role-based access
+- **Node Administration** - Monitor and control all connected VPN nodes
+- **Route Management** - Configure and manage network routing policies
+- **Pre-Auth Keys** - Generate secure keys for streamlined device onboarding
+
+### 🔐 Security & Compliance
+- **ACL Engine** - Advanced access control list management
+- **Authentication** - Secure API key-based authentication
+- **Audit Logging** - Comprehensive activity tracking and reporting
+- **Network Policies** - Granular control over network access permissions
+
+### 📊 Monitoring & Analytics
+- **Real-time Status** - Live monitoring of network health and node status
+- **Performance Metrics** - Detailed analytics and usage statistics
+- **Interactive Dashboard** - Comprehensive overview of network state
+- **Alert System** - Proactive notifications for network issues
+
+### 🎨 User Experience
+- **Dark Neon Theme** - Professional interface with cyan/magenta accents
+- **Mobile Responsive** - Optimized for tablets, phones, and desktop
+- **Fast Performance** - Built with modern web technologies for speed
+- **Intuitive Navigation** - Clean, organized interface design
 
 ---
 
@@ -86,10 +127,10 @@ git clone https://github.com/tiation/headscale-admin.git
 cd headscale-admin
 
 # Install dependencies
-{{INSTALL_COMMANDS}}
+npm install
 
 # Run the application
-{{RUN_COMMANDS}}
+npm run dev
 ```
 
 ---
@@ -98,7 +139,10 @@ cd headscale-admin
 
 ### Prerequisites
 
-{{PREREQUISITES}}
+- **Node.js** 18.0 or higher
+- **npm** 8.0 or higher
+- **Headscale Server** - Running instance with API access
+- **Modern Browser** - Chrome, Firefox, Safari, or Edge
 
 ### Installation Steps
 
@@ -110,12 +154,27 @@ cd headscale-admin
 
 2. **Install dependencies**
    ```bash
-   {{DETAILED_INSTALL_COMMANDS}}
+   npm install
    ```
 
 3. **Configuration**
    ```bash
-   {{CONFIG_COMMANDS}}
+   # Copy environment template
+   cp .env.example .env
+   
+   # Edit configuration
+   nano .env
+   ```
+
+4. **Development Server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Production Build**
+   ```bash
+   npm run build
+   npm run preview
    ```
 
 ---
@@ -124,15 +183,72 @@ cd headscale-admin
 
 ### Basic Usage
 
-{{BASIC_USAGE}}
+1. **Connect to Headscale**
+   - Navigate to Settings page
+   - Enter your Headscale server URL
+   - Provide API key for authentication
+   - Save configuration and test connection
+
+2. **Manage Users**
+   - View all registered users in Users tab
+   - Create new users with custom parameters
+   - Monitor user activity and connected devices
+   - Generate pre-auth keys for user onboarding
+
+3. **Monitor Nodes**
+   - Track all connected VPN nodes
+   - View online/offline status in real-time
+   - Access detailed node information
+   - Manage node permissions and settings
 
 ### Advanced Usage
 
-{{ADVANCED_USAGE}}
+1. **ACL Configuration**
+   - Create complex access control rules
+   - Test ACL policies before deployment
+   - Monitor rule effectiveness and usage
+   - Export/import ACL configurations
+
+2. **Route Management**
+   - Configure subnet routing
+   - Set up exit nodes and relay servers
+   - Monitor route advertisement and usage
+   - Troubleshoot routing issues
+
+3. **Enterprise Deployment**
+   - Deploy using Docker containers
+   - Set up reverse proxy with SSL/TLS
+   - Configure enterprise authentication
+   - Implement monitoring and logging
 
 ### Examples
 
-{{USAGE_EXAMPLES}}
+**Creating a new user:**
+```javascript
+// Navigate to Users > Add User
+{
+  "name": "engineering-team",
+  "preAuthKeys": 5,
+  "expiration": "2024-12-31T23:59:59Z"
+}
+```
+
+**Setting up ACL rules:**
+```json
+{
+  "groups": {
+    "engineering": ["user:alice", "user:bob"],
+    "management": ["user:charlie"]
+  },
+  "acls": [
+    {
+      "action": "accept",
+      "src": ["group:engineering"],
+      "dst": ["192.168.1.0/24:*"]
+    }
+  ]
+}
+```
 
 ---
 
@@ -180,7 +296,7 @@ A: We offer community support through GitHub Issues and professional enterprise 
 ### Technical Questions
 
 **Q: What are the system requirements?**
-A: {{SYSTEM_REQUIREMENTS}}
+A: Node.js 18+, npm 8+, modern browser, and a running Headscale server with API access. Minimum 2GB RAM recommended for development, 4GB+ for production.
 
 **Q: How do I handle large scale deployments?**
 A: See our [Deployment Guide](docs/deployment.md) for enterprise-scale deployment strategies.

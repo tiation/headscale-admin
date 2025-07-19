@@ -1,7 +1,26 @@
 {
-  "name": "headscale-admin",
-  "version": "0.0.1",
-  "private": true,
+  "name": "tiation-headscale-admin",
+  "version": "1.0.0",
+  "description": "Enterprise-grade VPN Network Management Platform for Headscale",
+  "author": "Tiation Team <tiatheone@protonmail.com>",
+  "homepage": "https://tiation.github.io/headscale-admin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiation/headscale-admin.git"
+  },
+  "keywords": [
+    "headscale",
+    "tailscale",
+    "vpn",
+    "network",
+    "management",
+    "enterprise",
+    "svelte",
+    "sveltekit",
+    "tiation"
+  ],
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
